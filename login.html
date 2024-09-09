@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevSchool</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/devschool_fav.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      .main-login-sec {
+        background-image: url("assets/img/Two\ factor\ authentication-amico.png");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      .glass-blur {
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        margin: 40px auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- nav start  -->
+    <div class="container-fluid upper-topbar">
+      <div class="container top-bar-main">
+        <div class="row top-bar-section">
+          <div class="col-md-6 col-sm-12 d-flex align-items-center">
+            <div class="col-md-4 col-sm-6 top-bar-fa">
+              <i class="fa-solid fa-phone"></i
+              ><a href="#" target="_blank">+92 345-444-2122</a>
+            </div>
+            <div class="col-md-4 col-sm-6 top-bar-fa">
+              <i class="fa-solid fa-envelope"></i
+              ><a href="#" target="_blank">contact@devschool</a>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <div class="col-md-6 social-top-icons d-flex align-items-center">
+            <ul class="d-flex footer-social-links">
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-youtube"></i></li>
+              <li><i class="fa-brands fa-github"></i></li>
+              <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/img/DevSchool.png"
+            alt="Logo"
+            width="235px"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#ins-sec">Tutors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About Us</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-link">Login</button>
+          <button type="button" class="btn btn-primary">
+            <i class="fa-solid fa-arrow-right me-2"></i>Join
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end  -->
+
+    <!-- page start  -->
+    <div class="container-fluid main-login-sec">
+      <div class="glass-blur">
+        <h2 class="text-center">Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Enter password"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+          <p class="text-center">
+            Don't have an account? <a href="signup.html">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <!-- page end  -->
+
+    <!-- footer start  -->
+    <div class="container-fluid footer pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 footer-main-section">
+            <img
+              src="assets/img/white-logo-devschool.png"
+              alt=""
+              style="width: 250px"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+              aliquid veniam pariatur quis explicabo magni necessitatibus eum
+              dicta commodi non, itaque sunt voluptas tempore temporibus sequi
+              possimus odit quaerat quos?
+            </p>
+            <div class="container"></div>
+            <div class="row">
+              <ul class="d-flex footer-social-links">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex">
+            <div class="col-md-4 col-sm-10 footer-list-fa">
+              <h5>Top categories</h5>
+              <a href="#">HTML CSS</a>
+              <a href="#">WordPress</a>
+              <a href="#">PHP MYSQL</a>
+              <a href="#">Adobe Photoshop</a>
+              <a href="#">Digital Markiting</a>
+              <a href="#">UI UX Design</a>
+              <a href="#">Ai and Web 3.0</a>
+            </div>
+            <div class="col-md-4 col-sm-10 footer-list-fa">
+              <h5>Useful links</h5>
+              <a href="#">Become an instructor</a>
+              <a href="#">All Courses</a>
+              <a href="#">Blog</a>
+              <a href="#">Signup</a>
+            </div>
+            <div class="col-md-4 col-sm-10 footer-list-fa">
+              <h5>Help</h5>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Condition</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Faq</a>
+              <a href="#">Refund Policy</a>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex px-5">
+          <div class="col justify-content-center">
+            <p>Copyright@DevSchool.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end  -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
